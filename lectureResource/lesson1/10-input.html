@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>input 表单元素</title>
+  </head>
+  <body>
+    <!-- login page -->
+    <form action="xxx.php">
+      username:
+      <input type="text" name="username" autocomplete="off" maxlength="6" required placeholder="please enter your name">
+      <br/>
+      password:
+      <input type="password" name="pwd">
+      <br>
+      gender
+      <!-- radio 单选框 checkbox复选 如果他们是一组的话 都要有相同的name 都能设置checked-->
+      <!-- 设置checked打开网页默认就是这个按钮 -->
+      male<input type="radio" name="gender" value="male">
+      female<input type="radio" name="gender1" value="female">
+      <br>
+      hobbies: fishing <input type="checkbox" name="hobby" value="fishing">
+      reading <input type="checkbox" name="hobby" value="reading">
+      traveling <input type="checkbox" name="hobby" value="traveling">
+      <br>
+      <input type="submit" value="register">
+      <br>
+      <input type="reset" value="reset">
+      <br>
+      <input type="button" value="click">
+      <br>
+      upload: <input type="file">
+    </form>
+  </body>
+</html>
