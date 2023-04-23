@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* px 一般用于边框或者定位 */
+      html {
+        font-size: 10px;
+      }
+      .parent {
+        font-size: 4rem; /* 40px */
+        width: 30rem;    /* 300px */
+        height: 30rem;    /* 300px */
+        border: solid 1px black;
+      }
+      .child {
+        font-size: 2rem;  /* 20px */
+        width: 15rem;     /* 150px */
+        height: 15rem;
+        border: solid 1px red;
+      }
+      .grandchild {
+        font-size: 1.5rem; /* 15px */
+        width: 10rem;     /* 100px */
+        height: 10rem;
+        border: solid 1px blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      parent
+      <div class="child">
+        child
+        <div class="grandchild">grandchild</div>
+      </div>
+    </div>
+  </body>
+</html>
