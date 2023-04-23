@@ -1,0 +1,58 @@
+
+Common HTML interview questions
+
+Semantic 
+
+HTMLMetaData Tag
+
+SEOSpeed
+• Image: Size, Too many images
+• Reduce API Requests
+
+Q：What are the common HTML ?
+A：
+<a> for link
+<b> to make bold text
+<strong> for bold text with emphasys
+<body> main HTML part
+<br> for break
+<div> it is a division or part of an HTML document
+<h1>... for titles
+<i> to make an italic text
+<img> for images in document
+<ol> is an ordered list, <ul> for an unordered list
+<li> is a list item in bulleted (ordered list)
+<p> for paragraph
+<span> to style part of text
+
+
+
+Q：What is SEO ?
+A：
+SEO是搜索引擎优化的意思。它指的是优化网站或在线内容以提高其在搜索引擎结果页面（SERPs）上的可见度和排名的过程。搜索引擎优化的主要目标是通过搜索引擎，如谷歌、必应和雅虎，为网站带来有机流量。SEO涉及各种技术，包括关键词研究、页面优化、非页面优化、链接建设和技术SEO。这些技术旨在提高一个网站的相关性、权威性和用户体验，这可以帮助它在相关查询的搜索结果中排名更靠前。
+SEO stands for “search engine optimization.” In simple terms, SEO means the process of improving your website to increase its visibility in Google, Microsoft Bing, and other search engines whenever people search for:
+
+Products you sell.
+Services yoru provide.
+Information on topics in which you have deep expertise and/or experience.
+
+Q：Relationship between HTML and SEO ?
+A：
+The difference between the two comes down to how they do it. HTML optimization focuses on optimizing the actual HTML code of a website, while SEO concentrates on increasing a website's ranking in search engine results.
+HTML优化的重点是优化网站的实际HTML代码，而SEO的重点是提高网站在搜索引擎结果中的排名。
+
+
+Q：What Semantic HTML ?
+A：
+Semantic means "relating to meaning". Writing semantic HTML means using HTML elements to structure your content based on each element's meaning, not its appearance.
+语义化HTML是指使用HTML标记语言传达网页内容的含义和结构，而不仅仅是外观。它涉及使用HTML标记来指示网页不同部分和元素的目的和角色，从而提高其可访问性，可用性和搜索引擎优化。
+
+语义化HTML的重要性在于它提供了更有意义和可访问的网页内容结构，这有助于用户和搜索引擎理解内容的上下文和目的。例如，使用标题标签指示网页的主要部分可以使用户更轻松地浏览和理解内容，同时向搜索引擎提供关于内容结构和层次结构的重要信号。
+
+一些语义化HTML元素的示例包括标题标签，指示网页的主要部分，文章标签，指示独立的内容片段，以及导航标签，指示网站的导航部分。
+
+Q：What is Responsive ?
+A：
+响应式设计是指设计和开发网站的方法，可以适应不同的屏幕大小和设备类型。这意味着网站可以在各种设备上正确显示和运行，包括台式电脑、笔记本电脑、平板电脑和智能手机，而不需要为每个设备单独设计或开发。
+Responsive design refers to the method of designing and developing websites that can adapt to different screen sizes and device types. This means that websites can be displayed and function correctly on a variety of devices, including desktop computers, laptops, tablets and smartphones, without the need for separate design or development for each device.
+
