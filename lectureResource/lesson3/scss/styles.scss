@@ -1,0 +1,88 @@
+body{
+     font-size:15px;
+     color: blue;
+     background-color: green;
+}
+
+//nesting
+ul{
+    font-size:16px;
+    li{
+        list-style: none;
+    }
+}
+
+$primary-color:#555;
+$secondary-color:#333;
+
+div.box{
+    background-color: $primary-color;
+}
+h1.page-header{
+    border:1px solid $secondary-color;
+}
+
+$primary-border:1px solid $primary-color;
+
+h2.page-header{
+    border:$primary-border;
+}
+
+//nesting &
+
+.nav{
+    height:100px;
+    ul{
+        margin:0;
+        li{
+            padding:5px;
+            a{
+                display:block;
+                color:#000;
+                &:hover{
+                    background-color: blue;
+                }
+            }
+        }
+    }
+}
+
+@mixin alert {
+    color:#000;
+    a{
+        color:pink;
+    }
+}
+.alert-warning{
+    @include alert;
+}
+
+@mixin alert2($text-color,$background){
+    color:$text-color;
+    background-color:$background;
+}
+
+.alert-info{
+    @include alert2(#333,green);
+}
+
+.alert-danger{
+    @include alert2(pink,blue);
+}
+
+.button{
+    padding:15px;
+    width:200px;
+    height:30px;
+}
+
+.button-info{
+    background-color: yellow;
+    @extend .button;
+}
+
+@import "base";
+h3{
+    color:$color;
+}
+

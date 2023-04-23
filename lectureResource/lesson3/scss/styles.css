@@ -1,0 +1,83 @@
+body {
+  font-size: 15px;
+  color: blue;
+  background-color: green;
+}
+
+ul {
+  font-size: 16px;
+}
+
+ul li {
+  list-style: none;
+}
+
+div.box {
+  background-color: #555;
+}
+
+h1.page-header {
+  border: 1px solid #333;
+}
+
+h2.page-header {
+  border: 1px solid #555;
+}
+
+.nav {
+  height: 100px;
+}
+
+.nav ul {
+  margin: 0;
+}
+
+.nav ul li {
+  padding: 5px;
+}
+
+.nav ul li a {
+  display: block;
+  color: #000;
+}
+
+.nav ul li a:hover {
+  background-color: blue;
+}
+
+.alert-warning {
+  color: #000;
+}
+
+.alert-warning a {
+  color: pink;
+}
+
+.alert-info {
+  color: #333;
+  background-color: green;
+}
+
+.alert-danger {
+  color: pink;
+  background-color: blue;
+}
+
+.button, .button-info {
+  padding: 15px;
+  width: 200px;
+  height: 30px;
+}
+
+.button-info {
+  background-color: yellow;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  color: red;
+}
