@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      // 遍历对象
+      var obj = {
+        name: "Ben",
+        age: 18,
+        sex: "male",
+        fn: function () {},
+      };
+      console.log(obj.name);
+      console.log(obj['name']);
+      // for in 遍历我们的对象
+      for(let key in obj){
+        console.log(key);
+        console.log(obj[key]);
+      }
+      // for (变量 in 对象) {
+      // }
+    </script>
+  </head>
+  <body></body>
+</html>

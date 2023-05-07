@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      //let const暂时性死区
+      // console.log("foo", foo);
+      // let foo = "abc";
+      //var 重复赋值
+      // var、let、const区别总结
+      // 重复声明 var
+      var name = "ben";
+      var name = "abc";
+      console.log(name);
+      // 变量提升 var
+      console.log(myVar);       // undefined
+      var myVar = "Hello World";
+      // 暂时性死区 let const
+      // console.log('foo',foo);  
+      // const foo = "abc";
+      // const是常量
+      const age = 20;
+      console.log("age",age);
+      // 块级作用域 let const
+
+      if(true){
+        let x = 10;
+        const y = 20;
+        console.log(x);
+        console.log(y);
+      }
+      console.log(x);
+      console.log(y);
+    </script>
+  </head>
+  <body></body>
+</html>
