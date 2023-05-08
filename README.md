@@ -15,3 +15,5 @@ lesson4 - javascript
 Practice1 - html + css
 
 Practice2 - html
+
+practice3 - javascript // no slides and coding
